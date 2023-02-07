@@ -1,0 +1,23 @@
+
+
+to restore presets and configuration you can reflash or perform factory reset:
+
+from internet browser navigate to local IP of WLED device you wish to reset for example 192.168.0.xxx
+can be found as attached device in router page usually 192.168.0.1 or 192.168.1.1 
+
+> from WLED main page > click "config" gear icon at top left > "Security and Updates" > click the tick box called "Factory Reset" this will
+erase everything!
+
+to backup and restore OV products, find the files on the google drive for your version (via serial number or software version)
+
+or download locally and then navigate from WLED home page > click "config" gear icon at top left > "security and updates"
+
+> there are two lines for "restore presets" and "restore configuration" you can click "choose file" navigate to correct JSON
+
+JSON with _presets_ in the name is for effects that is uploaded to "Restore Presets"
+
+JSON with _cfg_ in the name is for everything else, this includes all the essential led data to ensure your device works properly
+
+equally you can backup any new config or presets via the two buttons "backup presets" and "backup config" for safe keeping and
+restoring at a later date.
+
